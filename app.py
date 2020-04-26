@@ -12,7 +12,7 @@ import vikiprocess
 app = Flask(__name__)
 
 @app.route('/')
-def dynamic_page():
+def index():
 	return vikiprocess.show()
 	
 if __name__ == '__main__':
