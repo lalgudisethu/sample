@@ -7,7 +7,7 @@ import datetime
 import csv
 import matplotlib.pyplot as plt
 import pandas as pd
-from vikiprocess import show
+import vikiprocess
 
 app = Flask(__name__)
 
