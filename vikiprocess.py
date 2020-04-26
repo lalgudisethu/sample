@@ -6,10 +6,12 @@ import csv
 import matplotlib.pyplot as plt
 import pandas as pd
 
-x=[1,3,5,7]
-y=[18,15,17,8]
-plt.plot(x,y,color='r')
-plt.show()
+def show():
+	x=[1,3,5,7]
+	y=[18,15,17,8]
+	plt.plot(x,y,color='r')
+	plt.show()
+	return "ok"
 #import schedule
 #import time
 '''
