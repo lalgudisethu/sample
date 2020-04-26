@@ -5,12 +5,17 @@ import datetime
 import csv
 import matplotlib.pyplot as plt
 import pandas as pd
+import matplotlib.image as mpimg 
 
 def show():
 	x=[1,3,5,7]
 	y=[18,15,17,8]
 	plt.plot(x,y,color='r')
-	plt.show()
+	#plt.show()
+	plt.savefig('mydata.png',dpi=300)
+	img = mpimg.imread('mydata.png') 
+  # Output Images 
+	plt.imshow(img) 
 	return "ok"
 #import schedule
 #import time
