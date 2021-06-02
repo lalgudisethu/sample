@@ -47,7 +47,7 @@ sklearn==0.0
 smart-open==1.9.0
 soupsieve==1.9.5
 typing==3.7.4.1
-urllib3==1.25.8
+urllib3==1.26.5
 wikipedia==1.4.0
 Wikipedia-API==0.5.4
 xlrd==1.2.0
